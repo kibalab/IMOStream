@@ -42,9 +42,9 @@ export default async function Route(req: express.Request, res: express.Response)
             console.log(`Video Saved: ${id}`);
             res.writeHead(200, { "Content-Type": "video/mp4" });
             res.end(fs.readFileSync(path.join(publicPath, `${id}.mp4`)));
+            fs.unlinkSync(path.join(publicPath, `${id}.jpg`));
         });
 
-        fs.unlinkSync(path.join(publicPath, `${id}.jpg`));
         setTimeout(() => {
             fs.unlinkSync(path.join(publicPath, `${id}.mp4`));
         }, 60000);

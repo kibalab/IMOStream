@@ -1,14 +1,34 @@
 {
+  "name": "imostream",
+  "version": "1.0.0",
+  "description": "png또는 jpg를 인자로 받아서 mp4로 스트리밍 해줍니다.\r Take the URL of png or jpg as a factor and stream it to mp4.",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kibalab/IMOStream.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kibalab/IMOStream/issues"
+  },
+  "homepage": "https://github.com/kibalab/IMOStream#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node-fetch": "^2.5.12",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
   "dependencies": {
-    "axios": "^0.24.0",
     "express": "^4.17.2",
-    "forever": "^0.14.2",
-    "image-downloader": "^4.0.3",
-    "image-size": "^1.0.1",
-    "mime": "^3.0.0",
-    "node-fetch": "^3.1.1",
-    "request": "^2.88.2",
-    "request-ip": "^2.1.3",
+    "ffmpeg": "^0.0.4",
+    "node-fetch": "^2.6.1",
     "videoshow": "^0.1.12"
   }
 }

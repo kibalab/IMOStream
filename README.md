@@ -11,9 +11,9 @@ Designed to be used in VRChat.
 [2. Request.js](https://github.com/request/request)<br>
 [3. Request-ip](https://github.com/pbojinov/request-ip)<br>
 [4. Videoshow](https://github.com/h2non/videoshow)<br>
-[5. Videoshow](https://github.com/h2non/videoshow)<br>
 
 # Run Server
+    npm install
     node server
 ## Use
     http://localhost:8080/&url={Image URL}

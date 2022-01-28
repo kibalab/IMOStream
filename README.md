@@ -8,12 +8,10 @@ Designed to be used in VRChat.
 
 # Require Module
 [1. Express](https://expressjs.com/)<br>
-[2. Request.js](https://github.com/request/request)<br>
-[3. Request-ip](https://github.com/pbojinov/request-ip)<br>
-[4. Videoshow](https://github.com/h2non/videoshow)<br>
-[5. Videoshow](https://github.com/h2non/videoshow)<br>
+[2. Videoshow](https://github.com/h2non/videoshow)<br>
 
 # Run Server
-    node server
-## Use
-    http://localhost:8080/&url={Image URL}
+    npm install
+    npm run start
+## Usage
+    http://localhost:8080/{id}?url={Image URL}
